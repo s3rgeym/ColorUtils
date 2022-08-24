@@ -7,6 +7,7 @@ pages = [
     'color_names.html',
 ]
 
+# Когда-то элементы словаря при добавлении новых меняли свой порядок
 links = collections.OrderedDict()
 
 with open('templates/heading.txt', encoding='u8') as f:
